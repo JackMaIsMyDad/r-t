@@ -1,0 +1,66 @@
+@import '~antd/dist/antd.css';
+
+#root {
+	height: 100%;
+}
+
+.container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	min-height: 800px;
+	height: 100%;
+
+	.logo_box {
+		height: 50px;
+		text-align: center;
+		font-size: 18px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-image: url('./assets/logo.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+
+	.menu_box {
+		padding-top: 10px;
+		box-shadow: 3px 5px 6px rgba(0, 21, 41, 0.068), inset 5px 2px 6px rgba(0, 21, 41, 0.068);
+	}
+
+	.site_layout {
+		background: #fff;
+
+		.layout_header {
+			padding: 0;
+			background: #fff;
+			box-shadow: 0 2px 6px rgba(0, 21, 41, 0.068);
+			height: 50px;
+			line-height: 50px;
+			text-align: right;
+			padding-right: 20px;
+		}
+
+		.layout_content {
+			max-height: calc(100vh - 98px);
+			overflow-y: auto;
+			padding: 20px;
+
+			.site_layout_background {
+				height: 100px;
+			}
+		}
+
+		.layout_footer {
+			height: 48px;
+			line-height: 48px;
+			padding: 0;
+			text-align: center;
+			background: #fff;
+		}
+	}
+}

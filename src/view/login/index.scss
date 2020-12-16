@@ -1,0 +1,33 @@
+.login_container {
+	height: 100%;
+	min-height: 800px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.login_title {
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.login-form {
+		max-width: 400px;
+		width: 400px;
+		padding: 25px;
+		box-shadow: 0px 5px 20px rgb(241, 238, 238);
+	}
+
+	.login-form-forgot {
+		float: right;
+	}
+
+	.ant-col-rtl .login-form-forgot {
+		float: left;
+	}
+
+	.login-form-button {
+		width: 100%;
+	}
+}
